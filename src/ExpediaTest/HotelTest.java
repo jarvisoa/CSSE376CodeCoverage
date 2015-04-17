@@ -12,7 +12,7 @@ public class HotelTest {
 	@Test
 	public void TestThatHotelInitializes() {
 		Hotel target = new Hotel(5);
-		Assert.assertNull(target);
+		Assert.assertNotNull(target);
 	}
 	
 	@Test(expected=RuntimeException.class)
